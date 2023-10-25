@@ -1,1 +1,49 @@
 body {color :black;}
+body {font-family: Arial, Helvetica, sans-serif;}
+
+@font-face {
+    font-family: fuenteSecundaria;
+    src: url(../static/fonts/Shrikhand-Regular.ttf);
+}
+.Iconos {
+    width: 20px; /* Ajusta el tamaño del ícono */
+    margin-right: 5px; /* Agrega margen a la derecha del ícono */
+}
+.Logo{
+    width: 15% ;
+    height: 15% ;
+}
+/* Estilos generales del menú de navegación horizontal */
+nav {
+    background-color: #e4e4e4; /* Color de fondo del menú */
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex; /* Ajuste para mostrar los elementos en línea horizontal */
+}
+
+li {
+    margin-right: 20px;
+}
+
+/* Estilos de los enlaces (links) */
+a {
+    text-decoration: none;
+    color: #000000; /* Color del texto de los enlaces */
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+}
+
+a:hover {
+    text-decoration: underline; /* Subrayar en el hover */
+}
+
+/* Estilos para el icono */
+i {
+    font-size: 20px; /* Tamaño del icono */
+    margin-right: 5px; /* Espacio entre el icono y el texto */
+}
